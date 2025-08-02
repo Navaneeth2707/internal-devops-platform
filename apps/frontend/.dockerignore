@@ -1,0 +1,22 @@
+# Ignore node_modules — it's rebuilt in the container
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore test files and coverage
+coverage
+*.test.js
+
+# Ignore environment files (they can be injected at runtime instead)
+.env
+.env.*
+
+# OS and editor-specific files
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Git
+.git
+.gitignore
