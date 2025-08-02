@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: navaneeth277/backend  # Replace if your image name is different
+        image: navaneeth277/backend
         ports:
         - containerPort: 5000
